@@ -12,7 +12,7 @@ SET artist = 'Peter Jackson'
 WHERE artist = 'Michael Jackson';
 
 
-UPDATE albums
+UPDATE albums //this one might be wrong
 SET sales = sales * 10
 WHERE sales = sales;
 
