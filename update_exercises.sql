@@ -1,5 +1,5 @@
 SELECT * FROM albums;
-SELECT * FROM albums WHERE release_date <=1980;
+SELECT * FROM albums WHERE release_date <1980;
 SELECT * FROM albums WHERE artist = 'Michael Jackson';
 
 
@@ -12,7 +12,5 @@ SET artist = 'Peter Jackson'
 WHERE artist = 'Michael Jackson';
 
 
-UPDATE albums //this one might be wrong
-SET sales = sales * 10
-WHERE sales = sales;
-
+UPDATE albums
+SET sales = (sales * 10);
