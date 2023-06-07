@@ -13,3 +13,5 @@ VALUES ('Michael Jackson', 'Bad', '1987', '35000000', 'Pop'),
 
 SELECT * FROM albums;
 
+TRUNCATE albums;
+
