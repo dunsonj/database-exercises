@@ -6,6 +6,8 @@ SELECT first_name FROM employees WHERE  last_name LIKE '%e%' ORDER BY emp_no;
 
 SELECT first_name FROM employees WHERE  last_name LIKE '%e%' ORDER BY emp_no DESC;
 
+
+
 SELECT * FROM employees WHERE MONTH (birth_date) = 12 AND DAY (birth_date)= 25;
 
 SELECT * FROM employees WHERE MONTH (birth_date) = 12 AND DAY (birth_date)= 25 AND YEAR (hire_date) LIKE '199%';
