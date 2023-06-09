@@ -6,6 +6,7 @@ CREATE TABLE albums (
                         release_date INT,
                         sales FLOAT,
                         genre VARCHAR(50),
-                        PRIMARY KEY (id)
+                        PRIMARY KEY (id),
+                        UNIQUE (record_name, artist_name)
 );
 DESCRIBE albums;
